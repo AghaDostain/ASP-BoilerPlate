@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoilerPlate.Services", "Boi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoilerPlate.Services.UnitTests", "BoilerPlate.Services.UnitTests\BoilerPlate.Services.UnitTests.csproj", "{F54A9038-7A43-44A1-ABC3-254F10101BD7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoilerPlate.WebAPI", "BoilerPlate.WebAPI\BoilerPlate.WebAPI.csproj", "{6817F90A-EEF6-46E0-B405-7F87ABD2D38C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -77,6 +79,10 @@ Global
 		{F54A9038-7A43-44A1-ABC3-254F10101BD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F54A9038-7A43-44A1-ABC3-254F10101BD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F54A9038-7A43-44A1-ABC3-254F10101BD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6817F90A-EEF6-46E0-B405-7F87ABD2D38C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6817F90A-EEF6-46E0-B405-7F87ABD2D38C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6817F90A-EEF6-46E0-B405-7F87ABD2D38C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6817F90A-EEF6-46E0-B405-7F87ABD2D38C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
