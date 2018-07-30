@@ -31,6 +31,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -40,7 +41,30 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Common\FilterCollection.cs" />
+    <Compile Include="Common\FilterInfo.cs" />
+    <Compile Include="Common\KeyedModel.cs" />
+    <Compile Include="Common\PagedResult.cs" />
+    <Compile Include="Common\PagingRequest.cs" />
+    <Compile Include="Common\SearchRequest.cs" />
+    <Compile Include="Common\TrackableModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Security\AccountRegisterModel.cs" />
+    <Compile Include="Security\ChangeLockoutModel.cs" />
+    <Compile Include="Security\ChangePasswordModel.cs" />
+    <Compile Include="Security\ConfirmAccountModel.cs" />
+    <Compile Include="Security\ResetPasswordModel.cs" />
+    <Compile Include="Security\RoleModel.cs" />
+    <Compile Include="Security\SetPasswordModel.cs" />
+    <Compile Include="Security\UserModel.cs" />
+    <Compile Include="Security\UserRoleModel.cs" />
+    <Compile Include="Security\UserStatusModel.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BoilerPlate\BoilerPlate.Common.csproj">
+      <Project>{c2bc667a-43a1-418b-a4b9-b8e42a1a17e9}</Project>
+      <Name>BoilerPlate.Common</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

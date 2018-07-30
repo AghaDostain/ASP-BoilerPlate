@@ -57,11 +57,25 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DataContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BoilerPlate.Entities\BoilerPlate.Entities.csproj">
+      <Project>{7FEB6913-FB57-41C5-BDBE-57FBC9F15490}</Project>
+      <Name>BoilerPlate.Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BoilerPlate\BoilerPlate.Common.csproj">
+      <Project>{C2BC667A-43A1-418B-A4B9-B8E42A1A17E9}</Project>
+      <Name>BoilerPlate.Common</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Maps\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
